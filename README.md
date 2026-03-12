@@ -114,7 +114,7 @@ STOCK_REACT_MICROSERVICE
    │
    └─ index.css
       Global styles
-
+```
 
 Backend Microservices
 
