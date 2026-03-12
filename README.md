@@ -23,17 +23,18 @@ Built to work with a Spring Boot microservices backend powered by Apache Kafka e
     Latest market news for selected symbol
     External news API integration
 
-  #Tech Stack
-    
-    React
-    TypeScript
-    Lightweight Charts
 
-  #Communication
-  
-    WebSocket
-    STOMP Protocol
+## Tech Stack
 
-  #Styling
-    
-    CSS
+### Frontend
+- React
+- TypeScript
+- Lightweight Charts
+
+### Communication
+- WebSocket
+- STOMP Protocol
+
+### Styling
+- CSS
+
