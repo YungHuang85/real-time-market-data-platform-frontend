@@ -55,7 +55,7 @@ STOCK_REACT_MICROSERVICE
    │
    │  ├─ chart
    │  │  └─ CandleChart.tsx
-   │  │     K 線圖元件，使用 lightweight-charts 繪製 OHLC K 線
+   │  │     K 線圖元件，使用 lightweight-charts 繪製 K 線
    │  │
    │  ├─ market
    │  │  ├─ CompanyPanel.tsx
