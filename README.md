@@ -59,7 +59,6 @@ STOCK_REACT_MICROSERVICE
 │   │
 │   ├─ components
 │   │  UI component layer
-│   │
 │   │  ├─ chart
 │   │  │  └─ CandleChart.tsx
 │   │  │     Candlestick chart component
@@ -82,7 +81,6 @@ STOCK_REACT_MICROSERVICE
 │   │
 │   ├─ hooks
 │   │  Custom React hooks for data logic
-│   │
 │   │  ├─ useCandles.ts
 │   │  │  Fetch candlestick data
 │   │  ├─ useMarketData.ts
@@ -96,7 +94,6 @@ STOCK_REACT_MICROSERVICE
 │   │
 │   ├─ services
 │   │  API communication layer
-│   │
 │   │  ├─ candleService.ts
 │   │  │  Fetch candle data
 │   │  └─ quoteService.ts
