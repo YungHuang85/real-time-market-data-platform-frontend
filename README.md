@@ -53,55 +53,55 @@ Built to work with a **Spring Boot microservices backend powered by Apache Kafka
 ```text
 STOCK_REACT_MICROSERVICE
 ├─ src
-│   ├─ app
-│   │  └─ router.tsx
-│   │     React Router configuration
-│   │
-│   ├─ components
-│   │  UI component layer
-│   │  ├─ chart
-│   │  │  └─ CandleChart.tsx
-│   │  │     Candlestick chart component
-│   │  │
-│   │  ├─ market
-│   │  │  ├─ CompanyPanel.tsx
-│   │  │  │  Displays company information
-│   │  │  ├─ MetricPanel.tsx
-│   │  │  │  Displays financial metrics
-│   │  │  ├─ NewsPanel.tsx
-│   │  │  │  Displays related news
-│   │  │  ├─ PricePanel.tsx
-│   │  │  │  Displays real-time price
-│   │  │  └─ RecommendationPanel.tsx
-│   │  │     Displays analyst recommendation
-│   │  │
-│   │  └─ search
-│   │     └─ SymbolSearch.tsx
-│   │        Symbol search component
-│   │
-│   ├─ hooks
-│   │  Custom React hooks for data logic
-│   │  ├─ useCandles.ts
-│   │  │  Fetch candlestick data
-│   │  ├─ useMarketData.ts
-│   │  │  Fetch company / metrics / news
-│   │  └─ usePriceStream.ts
-│   │     Subscribe to WebSocket price stream
-│   │
-│   ├─ pages
-│   │  └─ DashboardPage.tsx
-│   │     Main dashboard page
-│   │
-│   ├─ services
-│   │  API communication layer
-│   │  ├─ candleService.ts
-│   │  │  Fetch candle data
-│   │  └─ quoteService.ts
-│   │     Fetch market data
-│   │
-│   └─ types
-│     └─ market.ts
-│        TypeScript interfaces
+├─ app
+│  └─ router.tsx
+│     React Router configuration
+│
+├─ components
+│  UI component layer
+│  ├─ chart
+│  │  └─ CandleChart.tsx
+│  │     Candlestick chart component
+│  │
+│  ├─ market
+│  │  ├─ CompanyPanel.tsx
+│  │  │  Displays company information
+│  │  ├─ MetricPanel.tsx
+│  │  │  Displays financial metrics
+│  │  ├─ NewsPanel.tsx
+│  │  │  Displays related news
+│  │  ├─ PricePanel.tsx
+│  │  │  Displays real-time price
+│  │  └─ RecommendationPanel.tsx
+│  │     Displays analyst recommendation
+│  │
+│  └─ search
+│     └─ SymbolSearch.tsx
+│        Symbol search component
+│
+├─ hooks
+│  Custom React hooks for data logic
+│  ├─ useCandles.ts
+│  │  Fetch candlestick data
+│  ├─ useMarketData.ts
+│  │  Fetch company / metrics / news
+│  └─ usePriceStream.ts
+│     Subscribe to WebSocket price stream
+│
+├─ pages
+│  └─ DashboardPage.tsx
+│     Main dashboard page
+│
+├─ services
+│  API communication layer
+│  ├─ candleService.ts
+│  │  Fetch candle data
+│  └─ quoteService.ts
+│     Fetch market data
+│
+├─ types
+│   └─ market.ts
+│      TypeScript interfaces
 │   
 ├─ App.tsx
 │  Application root component
