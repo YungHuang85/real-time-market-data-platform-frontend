@@ -1,4 +1,4 @@
-# Real-Time Market Dashboard Frontend
+# Real-Time Market Data Platform (Frontend)
 
 React dashboard for real-time stock and cryptocurrency market data visualization.
 
