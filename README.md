@@ -87,7 +87,6 @@ stock_react_microservice
 │  ├─ App.tsx                       # Application root component
 │  ├─ index.css                     # Global styles
 │  └─ main.tsx                      # React entry point
-├─ public
 ├─ package.json
 └─ vite.config.ts
 ```
